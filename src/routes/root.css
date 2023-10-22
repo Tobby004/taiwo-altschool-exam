@@ -1,0 +1,89 @@
+.root-container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #3498db, #8e44ad);
+}
+
+.root-heading {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.root-paragraph {
+  font-size: 1rem;
+  color: greenyellow;
+  margin-bottom: 20px;
+}
+
+.root-subheading {
+  font-size: 1.5rem;
+  color: white;
+  margin: 20px 0px;
+}
+
+.root-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.link-button {
+  text-decoration: none;
+  color: white;
+}
+.not-found-container {
+  text-align: center;
+  padding: 50px;
+}
+
+h2 {
+  font-size: 2.3rem;
+  color: ghostwhite;
+}
+
+p {
+  font-size: 1rem;
+  color: greenyellow;
+}
+
+.home-link {
+  display: inline-block;
+  color: white;
+  background-color: goldenrod;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: solid 1.5px red;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-link:hover {
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .root-heading {
+    font-size: 1.5rem;
+  }
+
+  .root-paragraph,
+  .root-subheading {
+    font-size: 1rem;
+  }
+
+  .root-button {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
