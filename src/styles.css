@@ -75,22 +75,18 @@ h2 {
 
 h2 {
   font-size: 2rem;
-  color: #333;
+  color: white;
 }
 
 p {
   font-size: 1rem;
-  color: #666;
+  color: greenyellow;
 }
 
 .home-link {
   color: #1d72b8;
   text-decoration: none;
   font-size: 1.2rem;
-}
-
-.home-link:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
